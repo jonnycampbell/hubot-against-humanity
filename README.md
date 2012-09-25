@@ -4,7 +4,7 @@ Scripts for use with [hubot](http://hubot.github.com/)
 
 ## Hubot Against Humanity
 
-This is the first version of Cards Against Humanity on Hubot.
+This is the first version of Cards Against Humanity on Hubot. Pick up a real set of [Cards Against Humanity](http://www.cardsagainsthumanity.com/). Your grandparents will love it.
 
 ### Usage
 
