@@ -14,5 +14,5 @@ Hubot Against Humanity uses three commands in total, one for asking a question, 
 	card me
 	card 2
 
-e.g. 	q card: “What is Batman's guilty pleasure?” 
-			card me: “Nipple blades”
+e.g. 	`q card` “What is Batman's guilty pleasure?” 
+			`card me` “Nipple blades”
