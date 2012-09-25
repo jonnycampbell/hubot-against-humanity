@@ -6,7 +6,7 @@ Scripts for use with [hubot](http://hubot.github.com/)
 
 This is the first version of Cards Against Humanity on Hubot. 
 
-Pick up a real set of [Cards Against Humanity](http://www.cardsagainsthumanity.com/), your grandparents will love it.
+Pick up a set of [Cards Against Humanity](http://www.cardsagainsthumanity.com/) IRL, your grandparents will love it.
 
 ### Usage
 
