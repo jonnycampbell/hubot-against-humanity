@@ -1,0 +1,15 @@
+{
+  "name": "hubot-against-humanity",
+  "version": "0.1",
+  "description": "Hubot Against Humanity",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonnycampbell/hubot-against-humanity.git"
+  },
+  "author": "jonnycampbell",
+  "bugs": {
+    "url": "https://github.com/jonnycampbell/hubot-against-humanity/issues"
+  },
+  "homepage": "https://github.com/jonnycampbell/hubot-against-humanity"
+}
