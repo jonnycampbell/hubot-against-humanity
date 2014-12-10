@@ -1,6 +1,6 @@
 {
   "name": "hubot-against-humanity",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Hubot Against Humanity",
   "main": "index.coffee",
   "repository": {
