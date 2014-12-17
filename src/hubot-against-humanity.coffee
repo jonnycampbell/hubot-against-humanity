@@ -1,5 +1,5 @@
 # Description:
-#   Cards Against Humanity v0.1
+#   Cards Against Humanity
 #
 # Dependencies:
 #   None
@@ -8,10 +8,13 @@
 #   None
 #
 # Commands:
-#   card me|card 2|q card
+#   hubot q card - Gives you a question card for Cards Against Humanity
+#   hubot card me - Gives you an answer card for Cards Against Humanity
+#   hubot card 2 - Gives you two answer cards for Cards Against Humanity
+#   hubot card 3 - Gives you three answer cards for Cards Against Humanity
 #
 # Author:
-#   Jonny Campbell (@jonnycampbell)
+#   jonnycampbell, jameswhite, stephenyeargin
 
 questions = [
   "TSA guidelines now prohibit __________ on airplanes.",
@@ -943,17 +946,17 @@ answers = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /(card me)/i, (msg) ->
+  robot.respond /card me$/i, (msg) ->
     msg.send msg.random answers
 
-  robot.hear /(card 2)/i, (msg) ->
-    msg.send msg.random answers
-    msg.send msg.random answers
-
-  robot.hear /(card 3)/i, (msg) ->
-    msg.send msg.random answers
+  robot.respond /card 2$/i, (msg) ->
     msg.send msg.random answers
     msg.send msg.random answers
 
-  robot.hear /(q card)/i, (msg) ->
+  robot.respond /card 3$/i, (msg) ->
+    msg.send msg.random answers
+    msg.send msg.random answers
+    msg.send msg.random answers
+
+  robot.respond /q card$/i, (msg) ->
     msg.send msg.random questions
